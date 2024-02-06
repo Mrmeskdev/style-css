@@ -3,8 +3,12 @@
     padding: 0;
     font-family: Arial;
 }
-
 header{
+    position:fixed;
+    width: 100%;
+}
+header div{
+    
     background-color: #333;
     color: #fff;
     display: flex;
@@ -12,8 +16,9 @@ header{
     align-items: center;
     padding: 10px 20px; 
 }
-.h2{
-    text-align: center;
+
+h1{
+    font-family:sans-serif
 }
 nav ul{
     display: flex;
@@ -24,38 +29,13 @@ nav a {
     color: aliceblue;
     text-decoration: none;
 }
-.container {
-    display: flex;
-    margin: 1rem 0;
-    gap: 5rem;
-    justify-content: center;
-}
-.news-item{
-    border: 1px solid #333;
-    margin: 1.5rem;
-    box-shadow: rgba(0,0,0, .34) 4px 6px 8px;
-    padding: 1rem;
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-.news-item img{
-    height: 200px;
-    object-fit: cover;
-}
-aside h3 {
-    margin-bottom: 1.5rem;
-}
-aside ul{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    list-style:inside;
+
+main{
+    
 }
 footer{
-    padding: 2rem;
-    background-color: #233;
+    padding: 1rem;
+    background-color: rgb(11, 12, 12);
     text-align: center;
     color: aliceblue;
 }
